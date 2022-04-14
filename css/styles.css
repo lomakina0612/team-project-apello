@@ -70,3 +70,34 @@ header {
     line-height: 1.46;
 color: var(--secondary-text-color)
 }
+
+.work-title {
+    font-size: 41px;
+line-height: 1.2;
+text-align: center;
+color: var(--primary-text-color);
+}
+
+.work-subtitle{
+    font-size: 42px;
+line-height: 1.2;
+color: var(--primary-text-color);
+}
+
+.work-text {
+    font-size: 11px;
+line-height: 2.73;
+color: var(--primary-text-color);
+}
+
+.work-caption {
+    font-size: 24px;
+line-height: 1.6;
+color: var(--secondary-text-color);
+}
+
+.work-descr {
+    font-size: 11px;
+line-height: 2.73;
+color: var(--text-color);
+}
