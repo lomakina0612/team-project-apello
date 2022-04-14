@@ -4,7 +4,11 @@
   --accent-color: #0a8bfe;
   --secondary-background-color: #0e0e33;
   --additional-background-color: #fafafa;
+  --text-color: #737373;
+
 }
+
+
 
 body {
   /* font-family: 'Inter', sans-serif; */
@@ -15,6 +19,9 @@ body {
   font-size: 13px;
   line-height: 2.31;
   color: var(--primary-text-color);
+}
+.list {
+    list-style: none;
 }
 
 a {
@@ -54,4 +61,12 @@ header {
   color: var(--primary-text-color);
   background: var(--accent-color);
   border-radius: 4px;
+}
+.partners {
+   color: var(--text-color);
+}
+.title {
+    font-size: 26px;
+    line-height: 1.46;
+color: var(--secondary-text-color)
 }
