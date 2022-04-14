@@ -14,6 +14,7 @@ body {
   /* font-family: 'Inter', sans-serif; */
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
+  background-color : darkslategray;
 }
 .header-link {
   font-size: 13px;
@@ -70,3 +71,49 @@ header {
     line-height: 1.46;
 color: var(--secondary-text-color)
 }
+
+.where-are>h2 {
+  color: var(--secondary-text-color);
+  font-size: 41px;
+  line-height:1.22;
+  text-align: center;
+}
+
+.where-are>p {
+  color: var(--text-color);
+  font-size: 12px;
+  line-height:2.50;
+  text-align: center;
+}
+
+.where-are-btn {
+  font-size: 24px;
+  line-height:1.58;
+  text-align: center;
+}
+
+.where-are-btn:hover,
+.where-are-btn:focus
+ {
+   color: var(--accent-color);
+ }
+
+ .where-are-text {
+   color: var(--secondary-text-color);
+  font-size: 19px;
+  line-height:1.47;
+  
+ }
+.where-are-text+p {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height:1.84;
+  
+}
+
+.where-btn {
+  background-color: var(--accent-color);
+  color: var(--primary-text-color);
+  font-size: 15px;
+  line-height:2;
+  }
